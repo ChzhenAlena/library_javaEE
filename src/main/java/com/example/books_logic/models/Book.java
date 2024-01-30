@@ -1,4 +1,4 @@
-package com.example.books_logic;
+package com.example.books_logic.models;
 
 import java.io.Serializable;
 

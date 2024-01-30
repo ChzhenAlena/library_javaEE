@@ -1,4 +1,6 @@
-package com.example.books_logic;
+package com.example.books_logic.DAO;
+
+import com.example.books_logic.models.Book;
 
 import java.util.ArrayList;
 import java.sql.*;

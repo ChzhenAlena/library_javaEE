@@ -1,4 +1,4 @@
-package com.example.users_logic;
+package com.example.users_logic.servlets;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;

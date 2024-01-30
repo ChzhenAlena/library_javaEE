@@ -1,7 +1,7 @@
 <%@ taglib prefix="c" uri="jakarta.tags.core"%>
 
 <%@ page import="java.util.ArrayList" %>
-<%@ page import="com.example.books_logic.Book" %>
+<%@ page import="com.example.books_logic.models.Book" %>
 <%@ page import="java.io.PrintWriter" %>
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>

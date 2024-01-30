@@ -1,4 +1,6 @@
-package com.example.users_logic;
+package com.example.users_logic.DAO;
+
+import com.example.users_logic.models.User;
 
 import java.sql.*;
 

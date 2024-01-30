@@ -1,4 +1,4 @@
-package com.example.users_logic;
+package com.example.users_logic.models;
 
 public class User {
     private String login;

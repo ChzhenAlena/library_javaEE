@@ -1,5 +1,6 @@
-package com.example.books_logic;
+package com.example.books_logic.servlets;
 
+import com.example.books_logic.DAO.BookDB;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;

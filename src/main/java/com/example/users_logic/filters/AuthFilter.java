@@ -1,4 +1,4 @@
-package com.example.users_logic;
+package com.example.users_logic.filters;
 
 import jakarta.servlet.*;
 import jakarta.servlet.annotation.WebFilter;
@@ -18,7 +18,8 @@ public class AuthFilter implements Filter {
     }
 
     @Override
-    public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
+    public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse,
+                         FilterChain filterChain) throws IOException, ServletException {
         final HttpServletRequest request = (HttpServletRequest) servletRequest;
         final HttpServletResponse response = (HttpServletResponse) servletResponse;
         final HttpSession session = request.getSession();

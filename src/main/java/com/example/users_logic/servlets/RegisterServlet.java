@@ -1,5 +1,7 @@
-package com.example.users_logic;
+package com.example.users_logic.servlets;
 
+import com.example.users_logic.models.User;
+import com.example.users_logic.DAO.UserDB;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
